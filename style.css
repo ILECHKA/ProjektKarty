@@ -1,0 +1,133 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: black;
+  font-family: 'Montserrat';
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  padding: 80px 150px;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.logo_container{
+  padding-right: 100px;
+  
+}
+.container{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.hand-container{
+  align-self: flex-end;
+  position: relative;
+}
+.text-container{
+ 
+}
+.link{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.nav_list{
+  display: flex;
+  list-style: none;
+  gap:70px;
+  align-items: center;
+
+}
+.section{
+  display: flex;
+  min-height: 900px;
+  padding:0 150px ;
+  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-section{
+  background-color: rgb(101, 16, 211);
+}
+.h1{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 85px;
+}
+.h2{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: white;
+}
+.hand{
+  position: relative;
+  max-width: 100%;
+}
+.card{
+  position: absolute;
+  right: 7%;
+  top: 20%;
+  max-width: 100%;
+}
+.text{
+  font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 37px;
+
+}
+.button{
+  align-self: baseline;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+  background-color: rgb(101, 16, 211);
+  border-radius: 35px  ;
+  min-width: 300px;
+  min-height: 70px;
+}
+.list{
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+.list__item{
+  position: relative;
+}
+.list_text{
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.03em;
+  color: white;
+}
+.list_img{
+  position: absolute;
+  right: 100%;
+  bottom: 38%;
+}
+.list_img_1{
+  bottom: 9%;
+}
+.list_header{
+   font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  letter-spacing: 0.03em;
+  color: white;
+}
